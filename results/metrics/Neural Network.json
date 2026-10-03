@@ -1,0 +1,59 @@
+{
+  "accuracy": 0.700907503693329,
+  "precision_micro": 0.700907503693329,
+  "recall_micro": 0.700907503693329,
+  "f1_micro": 0.700907503693329,
+  "precision_macro": 0.6719902758839477,
+  "recall_macro": 0.6237278708651296,
+  "f1_macro": 0.6427144464534312,
+  "precision_weighted": 0.6983089564646987,
+  "recall_weighted": 0.700907503693329,
+  "f1_weighted": 0.6952951480162742,
+  "per_class": {
+    "1": {
+      "precision": 0.6005961251862891,
+      "recall": 0.4811940298507463,
+      "f1": 0.5343056015909844,
+      "support": 5025
+    },
+    "2": {
+      "precision": 0.7117274968075312,
+      "recall": 0.808242277080804,
+      "f1": 0.7569206474536123,
+      "support": 29652
+    },
+    "3": {
+      "precision": 0.7036472056580224,
+      "recall": 0.5817473056638386,
+      "f1": 0.636917090315697,
+      "support": 17444
+    }
+  },
+  "confusion_matrix": [
+    [
+      2418,
+      2541,
+      66
+    ],
+    [
+      1478,
+      23966,
+      4208
+    ],
+    [
+      130,
+      7166,
+      10148
+    ]
+  ],
+  "model": "Neural Network",
+  "best_params": {
+    "model__learning_rate_init": "0.003",
+    "model__hidden_layer_sizes": "(64, 32)",
+    "model__alpha": "0.0001"
+  },
+  "cv_micro_f1_on_tuning_sample": 0.6789999039761505,
+  "train_time_sec": 13.990947961807251,
+  "predict_time_sec": 0.06723308563232422,
+  "train_accuracy": 0.708
+}

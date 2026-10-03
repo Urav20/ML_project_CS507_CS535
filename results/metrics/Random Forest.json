@@ -1,0 +1,61 @@
+{
+  "accuracy": 0.7146255827785346,
+  "precision_micro": 0.7146255827785346,
+  "recall_micro": 0.7146255827785346,
+  "f1_micro": 0.7146255827785346,
+  "precision_macro": 0.715133093862739,
+  "recall_macro": 0.6109121530077163,
+  "f1_macro": 0.6433160734812318,
+  "precision_weighted": 0.7204562708390528,
+  "recall_weighted": 0.7146255827785346,
+  "f1_weighted": 0.7018648150936179,
+  "per_class": {
+    "1": {
+      "precision": 0.6797020484171322,
+      "recall": 0.43582089552238806,
+      "f1": 0.5311022189887231,
+      "support": 5025
+    },
+    "2": {
+      "precision": 0.7018165107855328,
+      "recall": 0.875590179414542,
+      "f1": 0.7791315307745401,
+      "support": 29652
+    },
+    "3": {
+      "precision": 0.7638807223855523,
+      "recall": 0.5213253840862188,
+      "f1": 0.6197144706804321,
+      "support": 17444
+    }
+  },
+  "confusion_matrix": [
+    [
+      2190,
+      2768,
+      67
+    ],
+    [
+      945,
+      25963,
+      2744
+    ],
+    [
+      87,
+      8263,
+      9094
+    ]
+  ],
+  "model": "Random Forest",
+  "best_params": {
+    "model__n_estimators": "100",
+    "model__min_samples_split": "2",
+    "model__min_samples_leaf": "1",
+    "model__max_depth": "25",
+    "model__class_weight": "None"
+  },
+  "cv_micro_f1_on_tuning_sample": 0.6836250946021664,
+  "train_time_sec": 5.237278938293457,
+  "predict_time_sec": 0.18976998329162598,
+  "train_accuracy": 0.8599
+}

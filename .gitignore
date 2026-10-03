@@ -1,0 +1,36 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Generated files
+*.log
+
+# Trained models (can be hundreds of MB; GitHub rejects files over 100 MB)
+results/models/
+*.joblib
+
+# Extra result folders from your own experiments
+results_exp*/

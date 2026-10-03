@@ -1,0 +1,59 @@
+{
+  "accuracy": 0.7026342549068514,
+  "precision_micro": 0.7026342549068514,
+  "recall_micro": 0.7026342549068514,
+  "f1_micro": 0.7026342549068514,
+  "precision_macro": 0.6756959706603825,
+  "recall_macro": 0.6246282170554581,
+  "f1_macro": 0.6450449102315756,
+  "precision_weighted": 0.6992920378249856,
+  "recall_weighted": 0.7026342549068514,
+  "f1_weighted": 0.6976546267536113,
+  "per_class": {
+    "1": {
+      "precision": 0.6172936259143156,
+      "recall": 0.4702487562189055,
+      "f1": 0.5338303399977409,
+      "support": 5025
+    },
+    "2": {
+      "precision": 0.7170255821679906,
+      "recall": 0.8006205314987185,
+      "f1": 0.7565207692675388,
+      "support": 29652
+    },
+    "3": {
+      "precision": 0.6927687038988409,
+      "recall": 0.6030153634487503,
+      "f1": 0.6447836214294471,
+      "support": 17444
+    }
+  },
+  "confusion_matrix": [
+    [
+      2363,
+      2566,
+      96
+    ],
+    [
+      1343,
+      23740,
+      4569
+    ],
+    [
+      122,
+      6803,
+      10519
+    ]
+  ],
+  "model": "KNN",
+  "best_params": {
+    "model__weights": "distance",
+    "model__p": "1",
+    "model__n_neighbors": "31"
+  },
+  "cv_micro_f1_on_tuning_sample": 0.6738499083446037,
+  "train_time_sec": 0.31157994270324707,
+  "predict_time_sec": 89.04246520996094,
+  "train_accuracy": 0.98555
+}
